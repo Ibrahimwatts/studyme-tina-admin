@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_tina_app=self.webpackChunkmy_tina_app||[]).push([[1704],{1157:t=>{t.exports=JSON.parse('{"tags":[{"label":"Demo","permalink":"/docs/tags/demo","count":2},{"label":"Getting started","permalink":"/docs/tags/getting-started","count":1}]}')}}]);

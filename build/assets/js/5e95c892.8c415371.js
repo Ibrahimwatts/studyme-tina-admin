@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_tina_app=self.webpackChunkmy_tina_app||[]).push([[9647],{7121:(e,a,s)=>{s.r(a),s.d(a,{default:()=>i});s(6540);var r=s(4164),n=s(1213),p=s(7559),t=s(2831),u=s(781),c=s(4848);function i(e){return(0,c.jsx)(n.e3,{className:(0,r.A)(p.G.wrapper.docsPages),children:(0,c.jsx)(u.A,{children:(0,t.v)(e.route.routes)})})}}}]);

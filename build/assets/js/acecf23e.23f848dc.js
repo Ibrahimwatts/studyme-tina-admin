@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_tina_app=self.webpackChunkmy_tina_app||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog"}')}}]);
