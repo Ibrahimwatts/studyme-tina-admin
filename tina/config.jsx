@@ -2,7 +2,7 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: "main",
-  clientId: process.env.TINA_CLIENT_ID || "Ov23liTbc0tY7XRKz3BD", // fallback for local dev only
+  clientId: process.env.TINA_CLIENT_ID || "fc49bce2-ff3d-4437-82bb-c5719c2d577e", // fallback for local dev only
   token: process.env.TINA_TOKEN, // required for Tina Cloud production
   repo: "Ibrahimwatts/studyme-platform",
   baseBranch: "main",
