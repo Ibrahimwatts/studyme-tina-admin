@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/admin/:path*",
-      "destination": "/build/admin/index.html"
+      "destination": "/public/admin/index.html"
     },
     {
       "source": "/admin",
-      "destination": "/build/admin/index.html"
+      "destination": "/public/admin/index.html"
     },
     {
       "source": "/(.*)",
