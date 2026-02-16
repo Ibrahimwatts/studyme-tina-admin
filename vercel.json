@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/admin/:path*",
-      "destination": "/public/admin/index.html"
+      "destination": "/static/admin/index.html"
     },
     {
       "source": "/(.*)",
