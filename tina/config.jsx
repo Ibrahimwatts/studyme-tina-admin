@@ -2,20 +2,23 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: "main",
-  clientId: process.env.TINA_CLIENT_ID || "Ov23liTbc0tY7XRKz3BD", // fallback for local
-  clientSecret: process.env.TINA_CLIENT_SECRET || null, // Vercel env var only
+  clientId: process.env.TINA_CLIENT_ID || "Ov23liTbc0tY7XRKz3BD", // fallback for local dev only
+  token: process.env.TINA_TOKEN, // required for Tina Cloud production
   repo: "Ibrahimwatts/studyme-platform",
   baseBranch: "main",
+
   build: {
     publicFolder: "public",
-    outputFolder: "admin",
+    outputFolder: "admin", // serves admin at /admin/
   },
+
   media: {
     tina: {
       mediaRoot: "assets/images",
       publicFolder: "public",
     },
   },
+
   schema: {
     collections: [
       {
